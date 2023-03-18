@@ -14,3 +14,8 @@ function viraAmarelo() {
     let div = document.getElementById("teste");
     div.style.backgroundColor = "yellow";
 }
+//EVENTO ONMOUSEOUT
+function viraVerde() {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "#008000";
+}
