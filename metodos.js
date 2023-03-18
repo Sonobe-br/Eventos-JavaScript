@@ -8,3 +8,9 @@ function eventoClick () {
 function eventoDblClick () {
     alert ('Acionado o evento de duplo click');
 }
+
+//EVENTO ONMOUSEOVER
+function viraAmarelo() {
+    let div = document.getElementById("teste");
+    div.style.backgroundColor = "yellow";
+}
