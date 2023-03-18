@@ -4,3 +4,7 @@ function eventoClick () {
     document.body.style.backgroundColor = 'green';
 }
 
+//EVENTO ONDBLCLICK
+function eventoDblClick () {
+    alert ('Acionado o evento de duplo click');
+}
