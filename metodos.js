@@ -31,3 +31,8 @@ function adicionaTexto() {
     let paragrafo = document.getElementById("texto");
     //paragrafo.append('I love you * ');
 }
+
+//ONFOCUS
+function limpaTexto() {
+    document.getElementById("campoTexto").value = "";
+}

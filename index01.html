@@ -12,7 +12,7 @@
         }
     </style>
 </head>
-<body onmouseup="alert ('Você clicou na tela')">
+<body>
     <h1>Métodos Java Script</h1>
     <p id="texto"></p>
     <button ondblclick="eventoDblClick()">Clique aqui</button><br><br>
@@ -21,10 +21,12 @@
         onmousemove="adicionaTexto()" 
         onmouseout="viraVerde()" 
         onmouseover="viraAmarelo()" 
-        style = "margin: auto; width: 80%; height: 200px; background: #008000"></div>
+        style = "margin: auto; width: 80%; height: 200px; background: #008000">
+    </div>
+    <br><br>
 
-    <p>
-    </p>
+    <input onfocus="limpaTexto()" id="campoTexto" style="padding: 40px; font-size: 40px;" type="text"; 
+        placeholder="Digite alguma coisa" value="Já vem com texto">
     <script src="./metodos.js"></script>
 </body>
 </html>
