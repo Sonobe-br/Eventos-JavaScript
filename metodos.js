@@ -19,3 +19,9 @@ function viraVerde() {
     let div = document.getElementById("teste");
     div.style.backgroundColor = "#008000";
 }
+
+//EVENTO ONMOUSEMOVE
+function adicionaTexto() {
+    let paragrafo = document.getElementById("texto");
+    paragrafo.append('I love you<br>');
+}
