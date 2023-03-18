@@ -23,5 +23,11 @@ function viraVerde() {
 //EVENTO ONMOUSEMOVE
 function adicionaTexto() {
     let paragrafo = document.getElementById("texto");
-    paragrafo.append('I love you * ');
+    //paragrafo.append('I love you * ');
+}
+
+//EVENTO ONMOUSEDOWN
+function adicionaTexto() {
+    let paragrafo = document.getElementById("texto");
+    //paragrafo.append('I love you * ');
 }
