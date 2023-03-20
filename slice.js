@@ -57,4 +57,8 @@ function capturandoMaiorNumero (array) {
     return Math.max.apply(null,array);
 }
 
-document.getElementById("texto").innerHTML = capturandoMaiorNumero(listagemPorCodigos);
+function capturandoMenorNumero (array) {
+    return Math.min.apply(null,array);
+}
+
+document.getElementById("texto").innerHTML = capturandoMenorNumero(listagemPorCodigos);
