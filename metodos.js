@@ -43,7 +43,19 @@ function mudou() {
 }
 
 //ONKEYPRESS
-function teclaPressionada() {
+/* function teclaPressionada() {
     let input = document.getElementById("campoTexto").value;
     console.log(input);
+} */
+
+//ONKEYDOWN
+/* function teclaPressionada() {
+    let input = document.getElementById("campoTexto").value;
+    console.log(input);
+} */
+
+//ONKEYUP
+function teclaPressionada() {
+    let input = document.getElementById("campoTexto").value;
+    console.log("tecla pressionada");
 }
