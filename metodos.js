@@ -36,3 +36,8 @@ function adicionaTexto() {
 function limpaTexto() {
     document.getElementById("campoTexto").value = "";
 }
+
+//ONCHANGE
+function mudou() {
+    console.log("Mudou");
+}

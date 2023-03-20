@@ -17,6 +17,13 @@
     <p id="texto"></p>
     <button ondblclick="eventoDblClick()">Clique aqui</button><br><br>
 
+    <select onchange="mudou()" id="itens">
+        <option value="1">Abacaxi</option>
+        <option value="2">Morango</option>
+        <option value="3">Mamão</option>
+        <option value="4">Abacate</option>
+    </select>
+    <br><br>
     <div id="teste" 
         onmousemove="adicionaTexto()" 
         onmouseout="viraVerde()" 
@@ -25,7 +32,7 @@
     </div>
     <br><br>
 
-    <input onfocus="limpaTexto()" id="campoTexto" style="padding: 40px; font-size: 40px;" type="text"; 
+    <input id="campoTexto" style="padding: 40px; font-size: 40px;" type="text"; 
         placeholder="Digite alguma coisa" value="Já vem com texto">
     <script src="./metodos.js"></script>
 </body>
