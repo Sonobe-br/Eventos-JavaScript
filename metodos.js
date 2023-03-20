@@ -42,4 +42,8 @@ function mudou() {
     console.log("Mudou");
 }
 
-
+//ONKEYPRESS
+function teclaPressionada() {
+    let input = document.getElementById("campoTexto").value;
+    console.log(input);
+}
