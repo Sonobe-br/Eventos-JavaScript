@@ -1,4 +1,4 @@
-//EVENTO ONCLICK
+//EVENTO ONCLICK - USEI ESTA FUNÇÃO TAMBÉM PARA  O EVENTO ONBLUR
 function eventoClick () {
     alert ('Acionado o evento click');
     document.body.style.backgroundColor = 'green';
@@ -41,3 +41,5 @@ function limpaTexto() {
 function mudou() {
     console.log("Mudou");
 }
+
+
