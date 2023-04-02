@@ -8,18 +8,16 @@ function ativarContagem() {
     }, 5000);
     */
    
-    setInterval(function() {
-    
-        let cronometro = document.getElementById("tempo").innerHTML;
+    tempo = setInterval(function() {
+       let cronometro = document.getElementById("tempo").innerHTML;
        let soma = parseInt(cronometro) + 1;
        document.getElementById("tempo").innerHTML = soma;
-    
     }, 1000);
 }
 
 
 function pararContagem() {
-    /* clearTimeout(tempo);
-    document.getElementById("tempo").innerHTML = "Parou a contagem";
- */
+    clearInterval(tempo);
+    //document.getElementById("tempo").innerHTML = "Parou a contagem";
+ 
 }
