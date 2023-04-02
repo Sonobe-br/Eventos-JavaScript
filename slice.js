@@ -43,7 +43,7 @@ listagemPorCodigos.sort(function(a, b) {
 document.getElementById("texto").innerHTML = listagemPorCodigos; */
 
 //FUNÇÃO PARA CAPTURAR O MAIOR NÚMERO
-const listagemPorCodigos = [
+/* const listagemPorCodigos = [
     10002,
     90022,
     20043,
@@ -54,11 +54,29 @@ const listagemPorCodigos = [
 ];
 
 function capturandoMaiorNumero (array) {
-    return Math.max.apply(null,array);
+    return Math.max.apply(null, array);
 }
 
 function capturandoMenorNumero (array) {
-    return Math.min.apply(null,array);
+    return Math.min.apply(null, array);
 }
 
 document.getElementById("texto").innerHTML = capturandoMenorNumero(listagemPorCodigos);
+ */
+
+//FUNÇÃO PARA FILTRAR UMA LISTA DE MATRIZ
+const listagemPorCodigos = [
+    10002,
+    90022,
+    20043,
+    70452,
+    51090,
+    29002,
+    10972
+];
+const MaiorQue20000 = listagemPorCodigos.filter(filtragem) 
+document.getElementById("teste").innerHTML = MaiorQue20000;
+
+function filtragem (value, index, array) {
+    return value > 20000;
+}
