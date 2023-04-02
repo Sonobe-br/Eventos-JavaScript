@@ -1,6 +1,6 @@
 function verificaCor() {
     let cor = document.getElementById("cor").value; 
-
+    cor = cor.toLowerCase();
 
     switch (cor) {
         case "azul":
