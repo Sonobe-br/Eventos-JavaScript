@@ -10,7 +10,7 @@ function ativarContagem() {
    
     tempo = setInterval(function() {
        let cronometro = document.getElementById("tempo").innerHTML;
-       let soma = parseInt(cronometro) + 1;
+       let soma = parseInt(cronometro) - 1;
        document.getElementById("tempo").innerHTML = soma;
     }, 1000);
 }
